@@ -1,0 +1,37 @@
+.character-status {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.fieldset {
+  border: none;
+  display: flex;
+  gap: 10px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.button-container input {
+  outline: none;
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+.button-container label {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 530px) {
+  .character-status {
+    flex-direction: column;
+    gap: 7px;
+  }
+}
