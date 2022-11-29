@@ -1,8 +1,13 @@
+https://user-images.githubusercontent.com/100006431/204526894-d5b0348d-0ded-41ff-b3da-3b23e7e7c813.mp4
+
+
 # Description
 
-Fetching data with Rick and Morty API
-Infinite Scroll
-Abort Controller
+List of all Rick and Morty characters using rickandmortyapi.com. The app has search form to filter the results by character's names (it searches as you type)
+
+The list is paginated with **Infinite scroll**.
+
+Unnecessary requests are canceled with **Abort Controller**.
 
 
 # Getting Started with Create React App
